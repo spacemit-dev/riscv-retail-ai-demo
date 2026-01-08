@@ -29,7 +29,7 @@ class RecAudioPipeLine:
         self.CHANNELS = channels # Mono
         self.RATE = rate # 16kHz sampling rate
         FRAME_DURATION = 30 # Duration per frame (ms)
-        self.FRAME_SIZE = int(self.RATE * FRAME_DURATION / 3000) # Number of samples per frame
+        self.FRAME_SIZE = 512 # Number of samples per frame
 
         self.pa = pyaudio.PyAudio()
         self.stream = self.pa.open(
