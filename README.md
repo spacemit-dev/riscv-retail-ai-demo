@@ -106,7 +106,7 @@ ollama create qwen2.5-0.5b-elephant-fc -f qwen2.5-0.5b-elephant-fc.modelfile
 
 部署完成之后，执行 `ollama list` 命令查看服务，如图所示：
 
-![image-20250428153224566](../resources/smart-retail-ollama-status.png)
+![image-20250428153224566](./doc/smart-retail-ollama-status.png)
 
 5）模型部署完成之后，删掉模型存储目录以节省空间
 
